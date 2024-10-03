@@ -1,5 +1,5 @@
 import React, { Fragment, useState } from "react";
-
+//This file is to handle the input of the application
 const InputTodo = () => {
   const [description, setDescription] = useState("");
   const onSubmitForm = async (e) => {
